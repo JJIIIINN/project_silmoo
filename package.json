@@ -16,7 +16,7 @@
         "*.{ts,tsx}": [
             "eslint --fix",
             "prettier --config .prettierrc.cjs --write -u",
-            "stylelint './src/**/*.style.{ts,tsx}' --fix"
+            "stylelint --ignore-path .gitignore './src/**/*.style.{ts,tsx}' --fix"
         ]
     },
     "dependencies": {
