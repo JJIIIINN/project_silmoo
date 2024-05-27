@@ -65,6 +65,8 @@ textarea {
 }
 
 body {
+    background-color: #F5F5F5;
+
     color: black;
     font-family: Pretendard;
     font-weight: 300;

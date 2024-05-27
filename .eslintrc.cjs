@@ -5,7 +5,6 @@ module.exports = {
         'eslint:recommended',
         'plugin:@typescript-eslint/recommended',
         'plugin:react-hooks/recommended',
-        'plugin:@typescript-eslint/recommended',
         'plugin:unicorn/recommended',
         'plugin:prettier/recommended',
     ],
@@ -56,8 +55,8 @@ module.exports = {
         '@typescript-eslint/naming-convention': [
             // 코드 전반 네이밍 컨벤션
             'error',
-            { format: ['PascalCase'], selector: 'variable', modifiers: ['exported'] },
-            { format: ['camelCase'], selector: 'variable', leadingUnderscore: 'allow' },
+            { format: ['PascalCase', 'camelCase'], selector: 'variable', modifiers: ['exported'] },
+            { format: ['PascalCase', 'camelCase'], selector: 'variable', leadingUnderscore: 'allow' },
             { format: ['camelCase'], selector: 'parameter', leadingUnderscore: 'allow' },
             { format: ['PascalCase'], selector: 'function', modifiers: ['exported'] },
             { format: ['camelCase'], selector: 'function' },

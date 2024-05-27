@@ -6,28 +6,28 @@ import {
   mergeProps,
   render,
   setupStyleSheet
-} from "./chunk-CKI6CHJU.js";
+} from "./chunk-J4DD2F7V.js";
 import {
   onlineManager,
   useQueryClient
-} from "./chunk-AUQTWIDM.js";
+} from "./chunk-76LLADYX.js";
 import {
   require_jsx_runtime
-} from "./chunk-CRFRU37P.js";
+} from "./chunk-NJZ76KNG.js";
 import {
   require_react
-} from "./chunk-ESGRPGOP.js";
+} from "./chunk-FQHRK3RF.js";
 import {
   __privateAdd,
   __privateGet,
   __privateSet,
   __toESM
-} from "./chunk-3SPBDNLE.js";
+} from "./chunk-TIUEEL27.js";
 
-// .yarn/__virtual__/@tanstack-react-query-devtools-virtual-2ba5caa2d8/0/cache/@tanstack-react-query-devtools-npm-5.27.8-3817b2ff6b-292ed95c86.zip/node_modules/@tanstack/react-query-devtools/build/modern/devtools.js
+// .yarn/__virtual__/@tanstack-react-query-devtools-virtual-2ba5caa2d8/3/.yarn/berry/cache/@tanstack-react-query-devtools-npm-5.27.8-3817b2ff6b-10c0.zip/node_modules/@tanstack/react-query-devtools/build/modern/devtools.js
 var React = __toESM(require_react(), 1);
 
-// .yarn/cache/@tanstack-query-devtools-npm-5.27.8-8e48c11d9e-6563e01113.zip/node_modules/@tanstack/query-devtools/build/dev.js
+// ../../.yarn/berry/cache/@tanstack-query-devtools-npm-5.27.8-8e48c11d9e-10c0.zip/node_modules/@tanstack/query-devtools/build/dev.js
 var _client, _onlineManager, _queryFlavor, _version, _isMounted, _styleNonce, _shadowDOMTarget, _buttonPosition, _position, _initialIsOpen, _errorTypes, _Component, _dispose, _a;
 var TanstackQueryDevtools = (_a = class {
   constructor(config) {
@@ -97,7 +97,7 @@ var TanstackQueryDevtools = (_a = class {
       if (__privateGet(this, _Component)) {
         Devtools = __privateGet(this, _Component);
       } else {
-        Devtools = lazy(() => import("./HSODRENB-BKRVARY5.js"));
+        Devtools = lazy(() => import("./HSODRENB-NSDBA4FR.js"));
         __privateSet(this, _Component, Devtools);
       }
       setupStyleSheet(__privateGet(this, _styleNonce), __privateGet(this, _shadowDOMTarget));
@@ -145,7 +145,7 @@ var TanstackQueryDevtools = (_a = class {
   }
 }, _client = new WeakMap(), _onlineManager = new WeakMap(), _queryFlavor = new WeakMap(), _version = new WeakMap(), _isMounted = new WeakMap(), _styleNonce = new WeakMap(), _shadowDOMTarget = new WeakMap(), _buttonPosition = new WeakMap(), _position = new WeakMap(), _initialIsOpen = new WeakMap(), _errorTypes = new WeakMap(), _Component = new WeakMap(), _dispose = new WeakMap(), _a);
 
-// .yarn/__virtual__/@tanstack-react-query-devtools-virtual-2ba5caa2d8/0/cache/@tanstack-react-query-devtools-npm-5.27.8-3817b2ff6b-292ed95c86.zip/node_modules/@tanstack/react-query-devtools/build/modern/devtools.js
+// .yarn/__virtual__/@tanstack-react-query-devtools-virtual-2ba5caa2d8/3/.yarn/berry/cache/@tanstack-react-query-devtools-npm-5.27.8-3817b2ff6b-10c0.zip/node_modules/@tanstack/react-query-devtools/build/modern/devtools.js
 var import_jsx_runtime = __toESM(require_jsx_runtime(), 1);
 function ReactQueryDevtools(props) {
   const queryClient = useQueryClient(props.client);
@@ -202,7 +202,7 @@ function ReactQueryDevtools(props) {
   return (0, import_jsx_runtime.jsx)("div", { className: "tsqd-parent-container", ref });
 }
 
-// .yarn/__virtual__/@tanstack-react-query-devtools-virtual-2ba5caa2d8/0/cache/@tanstack-react-query-devtools-npm-5.27.8-3817b2ff6b-292ed95c86.zip/node_modules/@tanstack/react-query-devtools/build/modern/index.js
+// .yarn/__virtual__/@tanstack-react-query-devtools-virtual-2ba5caa2d8/3/.yarn/berry/cache/@tanstack-react-query-devtools-npm-5.27.8-3817b2ff6b-10c0.zip/node_modules/@tanstack/react-query-devtools/build/modern/index.js
 var ReactQueryDevtools2 = false ? function() {
   return null;
 } : ReactQueryDevtools;
